@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4342244702696992609
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4342244702696992611}
+  - component: {fileID: 4342244702696992608}
+  - component: {fileID: 568531283733553133}
+  m_Layer: 0
+  m_Name: MenuManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4342244702696992611
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4342244702696992609}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 289.86105, y: 185.3342, z: -1.8566949}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4342244702696992608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4342244702696992609}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 939df70cd02a27a4597420ef96063359, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Channel: {fileID: 11400000, guid: 3d0ff6c7917b99145aade9ae9fb9bf9d, type: 2}
+  m_FlowChannel: {fileID: 11400000, guid: 9200c7b5ec9a11242883fa1be04fcdc9, type: 2}
+  m_ModalState: {fileID: 11400000, guid: 0b03d7779934ef44b919a28becd0c46c, type: 2}
+  m_StarterState: 4
+--- !u!114 &568531283733553133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4342244702696992609}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8df7990b44518848b9fda6e6fef8a8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Modals:
+  - {fileID: 2738956936251023470, guid: 046f6199e77e8ab4f9d42717616148d6, type: 3}
+  - {fileID: 2738956936251023470, guid: 0a7c40d024d7cc345a162cfaa52ac86a, type: 3}
+  - {fileID: 2738956936251023470, guid: 92990a1ae78e3ab42b90a1323b5ad410, type: 3}
+  - {fileID: 2738956936251023470, guid: 70d9b19ebcf4d4f47b597c8625f3447d, type: 3}
+  - {fileID: 2738956936251023470, guid: cc63d31c35b9288459fb2dde1dfddef6, type: 3}
+  m_CurrentModal: 0
