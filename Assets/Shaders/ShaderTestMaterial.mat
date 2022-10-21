@@ -33,6 +33,10 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _Mask:
+        m_Texture: {fileID: 2800000, guid: 24dd88b8068becf46b3586d3f58de63e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_0cbb68b9eba041f793d2727674f4f752_Texture_1:
         m_Texture: {fileID: 2800000, guid: 4c8bd2e23de689d47ba7185ec8fe4121, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -55,7 +59,8 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Distortion: 0.5
+    - _Distortion: 0.2
+    - _Opacity: 1
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors: []
