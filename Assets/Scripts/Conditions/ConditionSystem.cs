@@ -37,6 +37,16 @@ public class ConditionSystem : MonoBehaviour, ISaveable
     private void Awake()
     {
         Instance = this;
+        m_Channel.OnChangeCondition += m_Hungry.VerifyStat;
+        m_Channel.OnChangeCondition += m_Thirsty.VerifyStat;
+        //m_Channel.OnChangeCondition += m_Radiation.VerifyStat;
+    }
+
+    private void OnDestroy()
+    {
+        m_Channel.OnChangeCondition -= m_Hungry.VerifyStat;
+        m_Channel.OnChangeCondition -= m_Thirsty.VerifyStat;
+        //m_Channel.OnChangeCondition -= m_Radiation.VerifyStat;
     }
 
     private void Start()
