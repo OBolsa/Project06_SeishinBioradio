@@ -13,6 +13,7 @@ public class ModalManager : MonoBehaviour
         Instance = this;
     }
 
+#if UNITY_EDITOR
     [ContextMenu("Generate Modal Enum")]
     private void GenerateModalsEnum()
     {
@@ -26,4 +27,5 @@ public class ModalManager : MonoBehaviour
 
         GenerateEnum.Go(_modal, _modalsName.ToArray());
     }
+#endif
 }
